@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #e3e0d8 !important;
+  color: #211c19 !important;
+}
+
+ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0;
+}
+
+ul li{
+  border-bottom: 1px solid #333;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300 !important;
+  font-size: 110px !important;
+  letter-spacing: -6px;
+}
+ .header h2{
+   position: relative;
+   top: -24px;
+   height: 0;
+   letter-spacing: 2px;
+ }
+
+.contentImg{
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 .125rem 1rem rgba(0,0,0,.25);
+  height: 300px;
+}
+
+.contentImg img{
+  position: relative;
+  height: 100%;
+  left: -45%;
+  bottom: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.goRecipe{
+  transition: all 0.2s ease-in-out;
+}
+
+.goRecipe p{
+   height: 95px;
+ }
+
+.goRecipe:hover{
+  color: #a78371 !important;
+}
+
+.goRecipe:hover p{
+  border-bottom: 1px solid #744229 !important;
+}
+
+.goRecipe:hover .contentImg{
+  box-shadow: 0px 0px 20px inset ;
+}
+
+.goRecipe:hover img{
+  opacity: .75;
+}
+
+.info p {
+  color: #744229;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+  font-style: italic;
+}
+
+.firstContent img{
+  width: 100%;
+}
+.firstContent .directionContent{
+  width: 100%;
+  padding: 35px 55px;
+  margin: 25px 0;
+}
+.firstContent .directionContent span{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.secondContent .ingredientsContent{
+  padding: 35px 55px;
+}
+
+.special {
+  background: #fff;
+  padding: 10px;
+  font-size: 14px;
+  margin: 5px;
+}
+.special p{
+  margin: 0;
+}
+.special p span{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
